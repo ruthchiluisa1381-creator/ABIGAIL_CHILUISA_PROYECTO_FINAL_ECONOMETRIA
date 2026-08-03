@@ -1,0 +1,51 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{utf8}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{cite}
+
+\title{\textbf{Determinantes Econométricos de la Informalidad Laboral en Ecuador (ENEMDU 2024--2025)}}
+\author{\textbf{Matías Carranza}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Este estudio analiza los determinantes socioeconómicos de la informalidad laboral en Ecuador utilizando la base de datos de la ENEMDU. Mediante estimaciones probabilísticas Logit y Probit, se identifican las variables críticas que inciden en la ocupación informal.
+\end{abstract}
+
+\vspace{0.5cm}
+\noindent\textbf{Repositorio de GitHub:} \url{https://github.com/tu-usuario/tu-repositorio} \\
+\noindent\textbf{Dashboard Interactivo (Vercel):} \url{https://tu-dashboard.vercel.app}
+
+\newpage
+
+\section{Introducción}
+La informalidad laboral representa un desafío persistente en América Latina \cite{cepal2022}. En Ecuador, las dinámicas del mercado de trabajo muestran patrones específicos que requieren un análisis econométrico riguroso \cite{inec2025}.
+
+\section{Revisión de Literatura}
+Estudios recientes señalan que la educación y el nivel salarial son determinantes fundamentales para mitigar la informalidad \cite{oit2023, worldbank2024}. Asimismo, modelos probabilísticos aplicados muestran consistencia en los efectos marginales \cite{gomez2026}.
+
+\section{Metodología}
+Se especifican modelos probabilísticos binarios para evaluar la probabilidad de informalidad ($Y_i = 1$):
+\begin{equation}
+    P(Y_i = 1 | X_i) = F(X_i \beta)
+\end{equation}
+donde $F(\cdot)$ representa la función de distribución acumulada (logística o normal estándar).
+
+\section{Resultados y Diagnóstico}
+Los resultados de los modelos Logit y Probit, junto con sus efectos marginales promedio (AME), coinciden en la dirección de las variables explicativas clave. Las pruebas de capacidad predictiva muestran áreas bajo la curva ROC (AUC) competitivas.
+
+\section{Conclusiones y Recomendaciones}
+Se destacan las implicaciones de política pública orientadas a incentivar el empleo formal mediante formación y alivio de cargas administrativas.
+
+\bibliographystyle{apa}
+\bibliography{referencias}
+
+\end{document}

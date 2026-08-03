@@ -5,7 +5,7 @@ Dep. Variable:        ﻿area_binaria   No. Observations:               369202
 Model:                          Logit   Df Residuals:                   369198
 Method:                           MLE   Df Model:                            3
 Date:                Mon, 03 Aug 2026   Pseudo R-squ.:                   1.000
-Time:                        13:46:34   Log-Likelihood:               -0.36255
+Time:                        14:19:52   Log-Likelihood:               -0.36255
 converged:                      False   LL-Null:                   -2.1478e+05
 Covariance Type:            nonrobust   LLR p-value:                     0.000
 ================================================================================
@@ -28,7 +28,7 @@ Dep. Variable:        ﻿area_binaria   No. Observations:               369202
 Model:                         Probit   Df Residuals:                   369198
 Method:                           MLE   Df Model:                            3
 Date:                Mon, 03 Aug 2026   Pseudo R-squ.:                   1.000
-Time:                        13:46:36   Log-Likelihood:            -1.3174e-06
+Time:                        14:19:54   Log-Likelihood:            -1.3174e-06
 converged:                      False   LL-Null:                   -2.1478e+05
 Covariance Type:            nonrobust   LLR p-value:                     0.000
 ================================================================================
