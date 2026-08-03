@@ -1,7 +1,7 @@
 # Proyecto Final de Econometría Aplicada: Análisis ENEMDU (2024-2025)
 
-[![Desplegado en Vercel](https://abigail-chiluisa-proyecto-final-eco-sable.vercel.app)
-[![Código en GitHub](https://github.com/ruthchiluisa1381-creator/ABIGAIL_CHILUISA_PROYECTO_FINAL_ECONOMETRIA.git)
+## [Desplegado en Vercel] https://abigail-chiluisa-proyecto-final-eco-sable.vercel.app
+## [Código en GitHub] https://github.com/ruthchiluisa1381-creator/ABIGAIL_CHILUISA_PROYECTO_FINAL_ECONOMETRIA.git
 
 ## 📌 Datos Generales
 * **Autor:** Abigail Chiluisa
