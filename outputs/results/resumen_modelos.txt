@@ -1,0 +1,45 @@
+=== RESUMEN MODELO LOGIT ===
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:        ﻿area_binaria   No. Observations:               369202
+Model:                          Logit   Df Residuals:                   369198
+Method:                           MLE   Df Model:                            3
+Date:                Mon, 03 Aug 2026   Pseudo R-squ.:                   1.000
+Time:                        13:46:34   Log-Likelihood:               -0.36255
+converged:                      False   LL-Null:                   -2.1478e+05
+Covariance Type:            nonrobust   LLR p-value:                     0.000
+================================================================================
+                   coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          -42.3088      8.088     -5.231      0.000     -58.162     -26.456
+﻿area         28.6879      6.459      4.441      0.000      16.028      41.348
+ciudad        -1.88e-05   3.56e-05     -0.527      0.598   -8.87e-05    5.11e-05
+conglomerado  1.025e-06   4.36e-06      0.235      0.814   -7.51e-06    9.56e-06
+================================================================================
+
+Complete Separation: The results show that there iscomplete separation or perfect prediction.
+In this case the Maximum Likelihood Estimator does not exist and the parameters
+are not identified.
+
+=== RESUMEN MODELO PROBIT ===
+                          Probit Regression Results                           
+==============================================================================
+Dep. Variable:        ﻿area_binaria   No. Observations:               369202
+Model:                         Probit   Df Residuals:                   369198
+Method:                           MLE   Df Model:                            3
+Date:                Mon, 03 Aug 2026   Pseudo R-squ.:                   1.000
+Time:                        13:46:36   Log-Likelihood:            -1.3174e-06
+converged:                      False   LL-Null:                   -2.1478e+05
+Covariance Type:            nonrobust   LLR p-value:                     0.000
+================================================================================
+                   coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const          -24.6572   3927.641     -0.006      0.995   -7722.693    7673.378
+﻿area         15.2683   1878.866      0.008      0.994   -3667.242    3697.778
+ciudad         1.02e-05      0.008      0.001      0.999      -0.016       0.016
+conglomerado  8.081e-07      0.001      0.001      0.999      -0.001       0.001
+================================================================================
+
+Complete Separation: The results show that there iscomplete separation or perfect prediction.
+In this case the Maximum Likelihood Estimator does not exist and the parameters
+are not identified.
